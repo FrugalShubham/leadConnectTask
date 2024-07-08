@@ -24,13 +24,13 @@ const Body = () => {
          <p>Are you a student or guardian?</p>
          <div className="form">
           <div className="flex">
-            <div className="checkbox-wrapper"><input type="radio" name="checkme" id="" /><label htmlFor="">Label 1</label></div>
-            <div className="checkbox-wrapper"><input type="radio" name="checkme" id="" /><label htmlFor="">Label 2</label></div>
+            <div className="checkbox-wrapper"><input type="radio" name="checkme" id="" /><label htmlFor="">Student</label></div>
+            <div className="checkbox-wrapper"><input type="radio" name="checkme" id="" /><label htmlFor="">Parent</label></div>
           </div>
           <div className="input-wrapper"><input type="text" name="" id="" placeholder='Your First Name' /></div>
           <div className="input-wrapper"><input type="text" name="" id="" placeholder='Your Mobile number' /></div>
 
-          <button className="button-wrapper">
+          <button className="button-wrapper  hover:bg-blue-700">
                 Submit
               </button>
 
